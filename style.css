@@ -346,7 +346,7 @@ button[type="submit"]:hover {
 }
 
 
-/* MEDIA QUERRY */
+/* MEDIA QUERY */
 
 @media (max-width: 768px) {
 
@@ -368,5 +368,88 @@ button[type="submit"]:hover {
 
     .form-container img {
         display: none;
+    }
+}
+
+@media (max-width: 448px) {
+
+    .covid-items,
+    .diabetes-items {
+        display: grid;
+        grid-template-columns: auto;
+        grid-row-gap: 40px;
+    }
+
+    .covid,
+    .diabetes {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        gap: 40px;
+    }
+
+    .covid-item img,
+    .diabetes-item img {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .covid-item,
+    .diabetes-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #C2E2F5;
+        box-shadow: #e4e4e4 0px 2px;
+    }
+
+    .carousel {
+        overflow-x: hidden;
+    }
+
+    .form-box {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        margin: auto;
+    }
+
+    .form-container-left {
+        scrollbar-width: none;
+        height: 100%;
+    }
+
+    .form-container img {
+        display: none;
+    }
+
+    .form-container {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        max-width: 100vw;
+        overflow-y: scroll;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 10;
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    .form-background {
+        height: 100%;
+        border-radius: 0px;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        background-color: white;
     }
 }
