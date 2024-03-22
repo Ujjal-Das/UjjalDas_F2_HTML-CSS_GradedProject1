@@ -131,7 +131,7 @@ nav li a:hover,
 
 .carousel {
     width: 100%;
-    border: 2px steelblue;
+    border: 2px solid steelblue;
     max-width: 1200px;
 }
 

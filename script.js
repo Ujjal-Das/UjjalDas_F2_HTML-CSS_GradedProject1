@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (index >= carouselImages.children.length - 1) index = 0;
         else index++;
         carouselImages.style.transform = `translateX(${-index * 100}%)`;
-    }, 3000);
+    }, 2000);
 
     // FORM DISPLAY TOGGLE
     const labTestLink = document.getElementById('lab-test-link');
