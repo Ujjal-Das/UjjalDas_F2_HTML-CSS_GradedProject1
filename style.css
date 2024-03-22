@@ -12,6 +12,7 @@ body {
     overflow-x: hidden;
 }
 
+
 /* TEXT */
 
 .text-rupee {
@@ -40,7 +41,6 @@ h3 {
     font-size: 24px;
     font-weight: 300;
 }
-
 
 
 /* HEADER AND FOOTER */
@@ -200,7 +200,6 @@ nav li a:hover,
     color: #fff;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-
     font-size: 16px;
     font-weight: 300;
 }
@@ -223,6 +222,7 @@ nav li a:hover,
     border: solid #00e14c;
     border-width: 2px 2px;
 }
+
 
 /* FORM */
 
@@ -282,7 +282,6 @@ nav li a:hover,
 .button-close-form i:hover {
     color: #4B7BF5;
 }
-
 
 .buttons {
     display: flex;
