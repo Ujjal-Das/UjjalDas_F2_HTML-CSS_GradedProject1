@@ -354,7 +354,6 @@ button[type="submit"]:hover {
         display: grid;
         grid-template-columns: auto auto;
         grid-row-gap: 20px;
-
     }
 
     .form-background {
